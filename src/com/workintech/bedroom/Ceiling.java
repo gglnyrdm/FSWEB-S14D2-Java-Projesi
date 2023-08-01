@@ -14,6 +14,12 @@ public class Ceiling{
     public PaintColor getPaintedColor(){ return paintedColor; }
 
     public void create(){
-        System.out.println();
+        System.out.println("Ceiling with " + height + "and color " + paintedColor + "has been created." );
+    }
+    public String toString() {
+        return "----------------------\n" +
+                "Height: " + height + "\n" +
+                "PaintColor: " + paintedColor + "\n" +
+                "----------------------";
     }
 }

@@ -64,4 +64,24 @@ public class Bedroom {
     public Carpet getCarpet() {
         return carpet;
     }
+    public String toString() {
+        return "----------------------\n" +
+                "Name: " + name + "\n" +
+                "Wall----------------------\n" +
+                "Wall1: " + wall1 + "\n" +
+                "Wall2: " + wall2 + "\n" +
+                "Wall3: " + wall3 + "\n" +
+                "Wall4: " + wall4 + "\n" +
+                "Ceiling----------------------\n" +
+                ceiling + "\n" +
+                "Bed----------------------\n" +
+                bed + "\n" +
+                "Lamp----------------------\n" +
+                lamp + "\n" +
+                "Wardrobe----------------------\n" +
+                wardrobe + "\n" +
+                "Carpet----------------------\n" +
+                carpet + "\n" +
+                "----------------------";
+    }
 }

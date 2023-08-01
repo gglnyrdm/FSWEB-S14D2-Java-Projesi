@@ -7,7 +7,7 @@ public class Bed{
     private int sheets;
     private int quilt;
 
-    public Bed(String style, int pillows, int height, int sheets, int quilt,String name){
+    public Bed(String style, int pillows, int height, int sheets, int quilt){
         this.style=style;
         this.pillows=pillows;
         this.height=height;
@@ -28,5 +28,14 @@ public class Bed{
     }
     public int getQuilt(){
         return quilt;
+    }
+
+    public String toString() {
+        return "----------------------\n" +
+                "Style: " + style + "\n" +
+                "Height: " + height + "\n" +
+                "Sheets: " + sheets + "\n" +
+                "Quilt: " + quilt + "\n" +
+                "----------------------";
     }
 }

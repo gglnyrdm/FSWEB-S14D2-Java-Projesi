@@ -23,4 +23,11 @@ public class Wardrobe{
     public void add(){
         System.out.println("Wardrobe added into Bedroom.");
     }
+    public String toString() {
+        return "----------------------\n" +
+                "Width: " + width + "\n" +
+                "Height: " + height + "\n" +
+                "Weight: " + weight + "\n" +
+                "----------------------";
+    }
 }

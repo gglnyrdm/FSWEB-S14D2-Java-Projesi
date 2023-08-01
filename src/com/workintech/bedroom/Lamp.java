@@ -27,4 +27,12 @@ public class Lamp{
         return globRating;
     }
 
+
+    public String toString() {
+        return "----------------------\n" +
+                "Style: " + style + "\n" +
+                "Battery: " + battery + "\n" +
+                "GlobRating: " + globRating + "\n" +
+                "----------------------";
+    }
 }
